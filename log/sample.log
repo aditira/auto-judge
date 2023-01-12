@@ -1,0 +1,1029 @@
+name:  Neneng wifa wihdatunnur
+code:
+programming languange:
+languange code:  84
+{"source_code":["can't be blank"]}
+resp-string:  {"message":"Endpoint '\/submissions\/' does not exist"}
+Source Code:
+Output:
+Expected Code:
+-------------------------------------------------
+name:  Muhammad Harris Munandar
+code:  hari_ke = 1
+qty_sekarang = 1
+hari_ke_request = 50
+
+while True:
+    qty_kemarin = qty_sekarang
+
+    hari_ke += 1
+
+    qty_sekarang = \
+        qty_kemarin * 3 if hari_ke % 3 != 0 \
+        else qty_kemarin // 2
+
+    print(hari_ke, qty_sekarang)
+
+    if hari_ke == hari_ke_request :
+        break
+programming languange:  python
+languange code:  71
+{"token":"6f391ec2-f685-44f5-8f29-47f597c75623"}
+resp-string:  {"source_code":"aGFyaV9rZSA9IDEKcXR5X3Nla2FyYW5nID0gMQpoYXJpX2tlX3JlcXVlc3Qg\nPSA1MAoKd2hpbGUgVHJ1ZToKICAgIHF0eV9rZW1hcmluID0gcXR5X3Nla2Fy\nYW5nCiAgICAKICAgIGhh
+cmlfa2UgKz0gMQogICAgCiAgICBxdHlfc2VrYXJh\nbmcgPSBcCiAgICAgICAgcXR5X2tlbWFyaW4gKiAzIGlmIGhhcmlfa2UgJSAz\nICE9IDAgXAogICAgICAgIGVsc2UgcXR5X2tlbWFyaW4gLy8gMgogICAgICAg\nICAgIAog
+ICAgcHJpbnQoaGFyaV9rZSwgcXR5X3Nla2FyYW5nKQogICAgCiAg\nICBpZiBoYXJpX2tlID09IGhhcmlfa2VfcmVxdWVzdCA6CiAgICAgICAgYnJl\nYWs=\n","language_id":71,"stdin":null,"expected_output":"N
+TAxOTY1MTAwMzY=\n","stdout":"MiAzCjMgMQo0IDMKNSA5CjYgNAo3IDEyCjggMzYKOSAxOAoxMCA1NAoxMSAx\nNjIKMTIgODEKMTMgMjQzCjE0IDcyOQoxNSAzNjQKMTYgMTA5MgoxNyAzMjc2\nCjE4IDE2MzgKMTkgNDkxN
+AoyMCAxNDc0MgoyMSA3MzcxCjIyIDIyMTEzCjIz\nIDY2MzM5CjI0IDMzMTY5CjI1IDk5NTA3CjI2IDI5ODUyMQoyNyAxNDkyNjAK\nMjggNDQ3NzgwCjI5IDEzNDMzNDAKMzAgNjcxNjcwCjMxIDIwMTUwMTAKMzIg\nNjA0NTAzM
+AozMyAzMDIyNTE1CjM0IDkwNjc1NDUKMzUgMjcyMDI2MzUKMzYg\nMTM2MDEzMTcKMzcgNDA4MDM5NTEKMzggMTIyNDExODUzCjM5IDYxMjA1OTI2\nCjQwIDE4MzYxNzc3OAo0MSA1NTA4NTMzMzQKNDIgMjc1NDI2NjY3CjQzIDg
+y\nNjI4MDAwMQo0NCAyNDc4ODQwMDAzCjQ1IDEyMzk0MjAwMDEKNDYgMzcxODI2\nMDAwMwo0NyAxMTE1NDc4MDAwOQo0OCA1NTc3MzkwMDA0CjQ5IDE2NzMyMTcw\nMDEyCjUwIDUwMTk2NTEwMDM2Cg==\n","status_id":4,"
+created_at":"2023-01-12T16:52:19.928Z","finished_at":"2023-01-12T16:52:23.097Z","time":"0.02","memory":3544,"stderr":null,"token":"6f391ec2-f685-44f5-8f29-47f597c75623","numb
+er_of_runs":1,"cpu_time_limit":"5.0","cpu_extra_time":"1.0","wall_time_limit":"10.0","memory_limit":128000,"stack_limit":64000,"max_processes_and_or_threads":60,"enable_per_p
+rocess_and_thread_time_limit":false,"enable_per_process_and_thread_memory_limit":false,"max_file_size":1024,"compile_output":null,"exit_code":0,"exit_signal":null,"message":n
+ull,"wall_time":"0.065","compiler_options":null,"command_line_arguments":null,"redirect_stderr_to_stdout":false,"callback_url":null,"additional_files":null,"enable_network":f
+alse,"status":{"id":4,"description":"Wrong Answer"},"language":{"id":71,"name":"Python (3.8.1)"}}
+Source Code:  hari_ke = 1
+qty_sekarang = 1
+hari_ke_request = 50
+
+while True:
+    qty_kemarin = qty_sekarang
+
+    hari_ke += 1
+
+    qty_sekarang = \
+        qty_kemarin * 3 if hari_ke % 3 != 0 \
+        else qty_kemarin // 2
+
+    print(hari_ke, qty_sekarang)
+
+    if hari_ke == hari_ke_request :
+        break
+Output:  2 3
+3 1
+4 3
+5 9
+6 4
+7 12
+8 36
+9 18
+10 54
+11 162
+12 81
+13 243
+14 729
+15 364
+16 1092
+17 3276
+18 1638
+19 4914
+20 14742
+21 7371
+22 22113
+23 66339
+24 33169
+25 99507
+26 298521
+27 149260
+28 447780
+29 1343340
+30 671670
+31 2015010
+32 6045030
+33 3022515
+34 9067545
+35 27202635
+36 13601317
+37 40803951
+38 122411853
+39 61205926
+40 183617778
+41 550853334
+42 275426667
+43 826280001
+44 2478840003
+45 1239420001
+46 3718260003
+47 11154780009
+48 5577390004
+49 16732170012
+50 50196510036
+
+Expected Code:  50196510036
+-------------------------------------------------
+name:  Wiroso
+code:
+programming languange:
+languange code:  84
+{"source_code":["can't be blank"]}
+resp-string:  {"message":"Endpoint '\/submissions\/' does not exist"}
+Source Code:
+Output:
+Expected Code:
+-------------------------------------------------
+name:  Mufti Halim
+code:
+programming languange:
+languange code:  84
+{"source_code":["can't be blank"]}
+resp-string:  {"message":"Endpoint '\/submissions\/' does not exist"}
+Source Code:
+Output:
+Expected Code:
+-------------------------------------------------
+name:  abdul basit
+code:
+programming languange:
+languange code:  84
+{"source_code":["can't be blank"]}
+resp-string:  {"message":"Endpoint '\/submissions\/' does not exist"}
+Source Code:
+Output:
+Expected Code:
+-------------------------------------------------
+name:  DEA NURITA FEBRIANA
+code:
+programming languange:
+languange code:  84
+{"source_code":["can't be blank"]}
+resp-string:  {"message":"Endpoint '\/submissions\/' does not exist"}
+Source Code:
+Output:
+Expected Code:
+-------------------------------------------------
+name:  Daarin Fairuz Zahira
+code:
+programming languange:
+languange code:  84
+{"source_code":["can't be blank"]}
+resp-string:  {"message":"Endpoint '\/submissions\/' does not exist"}
+Source Code:
+Output:
+Expected Code:
+-------------------------------------------------
+name:  Aryo Bimo
+code:  let n = 1;
+
+for(let i = 1; i <= 50 ; i++){
+    if(i == 1){
+        n = 1;
+    }else if(i%3 == 0){
+        n = Math.floor(n / 2);
+    }else{
+        n = n * 3;
+    }
+}
+
+console.log(n);
+programming languange:  javascript
+languange code:  63
+{"token":"9f13cfaa-fa9a-4b84-8ee7-3583aa371612"}
+resp-string:  {"source_code":"bGV0IG4gPSAxOwoKZm9yKGxldCBpID0gMTsgaSA8PSA1MCA7IGkrKyl7CiAg\nICBpZihpID09IDEpewogICAgICAgIG4gPSAxOwogICAgfWVsc2UgaWYoaSUz\nID09IDApewogICAgICAg
+IG4gPSBNYXRoLmZsb29yKG4gLyAyKTsKICAgIH1l\nbHNlewogICAgICAgIG4gPSBuICogMzsKICAgIH0KfQoKY29uc29sZS5sb2co\nbik7\n","language_id":63,"stdin":null,"expected_output":"NTAxOTY1MTAwM
+zY=\n","stdout":"NTAxOTY1MTAwMzYK\n","status_id":3,"created_at":"2023-01-12T16:52:26.049Z","finished_at":"2023-01-12T16:52:32.152Z","time":"0.03","memory":7396,"stderr":null,
+"token":"9f13cfaa-fa9a-4b84-8ee7-3583aa371612","number_of_runs":1,"cpu_time_limit":"5.0","cpu_extra_time":"1.0","wall_time_limit":"10.0","memory_limit":128000,"stack_limit":6
+4000,"max_processes_and_or_threads":60,"enable_per_process_and_thread_time_limit":false,"enable_per_process_and_thread_memory_limit":false,"max_file_size":1024,"compile_outpu
+t":null,"exit_code":0,"exit_signal":null,"message":null,"wall_time":"0.075","compiler_options":null,"command_line_arguments":null,"redirect_stderr_to_stdout":false,"callback_
+url":null,"additional_files":null,"enable_network":false,"status":{"id":3,"description":"Accepted"},"language":{"id":63,"name":"JavaScript (Node.js 12.14.0)"}}
+Source Code:  let n = 1;
+
+for(let i = 1; i <= 50 ; i++){
+    if(i == 1){
+        n = 1;
+    }else if(i%3 == 0){
+        n = Math.floor(n / 2);
+    }else{
+        n = n * 3;
+    }
+}
+
+console.log(n);
+Output:  50196510036
+
+Expected Code:  50196510036
+-------------------------------------------------
+name:  Shafa Nada Nur Afifah
+code:  hari_ke = 1
+qty_sekarang = 1
+hari_ke_request = 50
+
+while True:
+    qty_kemarin = qty_sekarang
+
+    hari_ke += 1
+
+    qty_sekarang = \
+        qty_kemarin * 3 if hari_ke % 3 != 0 \
+        else qty_kemarin // 2
+
+    print(hari_ke, qty_sekarang)
+
+    if hari_ke == hari_ke_request :
+        break
+programming languange:  python
+languange code:  71
+{"token":"3a61f9b3-50fc-43e7-b03c-2ad70fe1d023"}
+resp-string:  {"source_code":"aGFyaV9rZSA9IDEKcXR5X3Nla2FyYW5nID0gMQpoYXJpX2tlX3JlcXVlc3Qg\nPSA1MAoKd2hpbGUgVHJ1ZToKICAgIHF0eV9rZW1hcmluID0gcXR5X3Nla2Fy\nYW5nCiAgICAKICAgIGhh
+cmlfa2UgKz0gMQogICAgCiAgICBxdHlfc2VrYXJh\nbmcgPSBcCiAgICAgICAgcXR5X2tlbWFyaW4gKiAzIGlmIGhhcmlfa2UgJSAz\nICE9IDAgXAogICAgICAgIGVsc2UgcXR5X2tlbWFyaW4gLy8gMgogICAgICAg\nICAgIAog
+ICAgcHJpbnQoaGFyaV9rZSwgcXR5X3Nla2FyYW5nKQogICAgCiAg\nICBpZiBoYXJpX2tlID09IGhhcmlfa2VfcmVxdWVzdCA6CiAgICAgICAgYnJl\nYWs=\n","language_id":71,"stdin":null,"expected_output":"N
+TAxOTY1MTAwMzY=\n","stdout":"MiAzCjMgMQo0IDMKNSA5CjYgNAo3IDEyCjggMzYKOSAxOAoxMCA1NAoxMSAx\nNjIKMTIgODEKMTMgMjQzCjE0IDcyOQoxNSAzNjQKMTYgMTA5MgoxNyAzMjc2\nCjE4IDE2MzgKMTkgNDkxN
+AoyMCAxNDc0MgoyMSA3MzcxCjIyIDIyMTEzCjIz\nIDY2MzM5CjI0IDMzMTY5CjI1IDk5NTA3CjI2IDI5ODUyMQoyNyAxNDkyNjAK\nMjggNDQ3NzgwCjI5IDEzNDMzNDAKMzAgNjcxNjcwCjMxIDIwMTUwMTAKMzIg\nNjA0NTAzM
+AozMyAzMDIyNTE1CjM0IDkwNjc1NDUKMzUgMjcyMDI2MzUKMzYg\nMTM2MDEzMTcKMzcgNDA4MDM5NTEKMzggMTIyNDExODUzCjM5IDYxMjA1OTI2\nCjQwIDE4MzYxNzc3OAo0MSA1NTA4NTMzMzQKNDIgMjc1NDI2NjY3CjQzIDg
+y\nNjI4MDAwMQo0NCAyNDc4ODQwMDAzCjQ1IDEyMzk0MjAwMDEKNDYgMzcxODI2\nMDAwMwo0NyAxMTE1NDc4MDAwOQo0OCA1NTc3MzkwMDA0CjQ5IDE2NzMyMTcw\nMDEyCjUwIDUwMTk2NTEwMDM2Cg==\n","status_id":4,"
+created_at":"2023-01-12T16:52:34.464Z","finished_at":"2023-01-12T16:52:35.608Z","time":"0.032","memory":3400,"stderr":null,"token":"3a61f9b3-50fc-43e7-b03c-2ad70fe1d023","num
+ber_of_runs":1,"cpu_time_limit":"5.0","cpu_extra_time":"1.0","wall_time_limit":"10.0","memory_limit":128000,"stack_limit":64000,"max_processes_and_or_threads":60,"enable_per_
+process_and_thread_time_limit":false,"enable_per_process_and_thread_memory_limit":false,"max_file_size":1024,"compile_output":null,"exit_code":0,"exit_signal":null,"message":
+null,"wall_time":"0.089","compiler_options":null,"command_line_arguments":null,"redirect_stderr_to_stdout":false,"callback_url":null,"additional_files":null,"enable_network":
+false,"status":{"id":4,"description":"Wrong Answer"},"language":{"id":71,"name":"Python (3.8.1)"}}
+Source Code:  hari_ke = 1
+qty_sekarang = 1
+hari_ke_request = 50
+
+while True:
+    qty_kemarin = qty_sekarang
+
+    hari_ke += 1
+
+    qty_sekarang = \
+        qty_kemarin * 3 if hari_ke % 3 != 0 \
+        else qty_kemarin // 2
+
+    print(hari_ke, qty_sekarang)
+
+    if hari_ke == hari_ke_request :
+        break
+Output:  2 3
+3 1
+4 3
+5 9
+6 4
+7 12
+8 36
+9 18
+10 54
+11 162
+12 81
+13 243
+14 729
+15 364
+16 1092
+17 3276
+18 1638
+19 4914
+20 14742
+21 7371
+22 22113
+23 66339
+24 33169
+25 99507
+26 298521
+27 149260
+28 447780
+29 1343340
+30 671670
+31 2015010
+32 6045030
+33 3022515
+34 9067545
+35 27202635
+36 13601317
+37 40803951
+38 122411853
+39 61205926
+40 183617778
+41 550853334
+42 275426667
+43 826280001
+44 2478840003
+45 1239420001
+46 3718260003
+47 11154780009
+48 5577390004
+49 16732170012
+50 50196510036
+
+Expected Code:  50196510036
+-------------------------------------------------
+name:  Nur Aini Azizah
+code:
+programming languange:
+languange code:  84
+{"source_code":["can't be blank"]}
+resp-string:  {"message":"Endpoint '\/submissions\/' does not exist"}
+Source Code:
+Output:
+Expected Code:
+-------------------------------------------------
+name:  ASSYIFA DWI YANDRI
+code:
+programming languange:
+languange code:  84
+{"source_code":["can't be blank"]}
+resp-string:  {"message":"Endpoint '\/submissions\/' does not exist"}
+Source Code:
+Output:
+Expected Code:
+-------------------------------------------------
+name:  May Rahmi Nabilah Riauwati
+code:
+programming languange:
+languange code:  84
+{"source_code":["can't be blank"]}
+resp-string:  {"message":"Endpoint '\/submissions\/' does not exist"}
+Source Code:
+Output:
+Expected Code:
+-------------------------------------------------
+name:  Gunawan
+code:  <?php
+
+    $jumlah_penduduk = 1;
+    echo("Hari ke-1: ada ".$jumlah_penduduk." penduduk ");
+    for ($i=2; $i <= 50 ; $i++) {
+        if ($i % 3 == 0) {
+            $jumlah_penduduk = floor($jumlah_penduduk/2);
+            $jmlq = $jumlah_penduduk *2 +1;
+            echo("Hari ke ".$i."ada ".$jumlah_penduduk."=(".$jmlq."/ 2) -> Thanos muncul ");
+        }else {
+            $jumlah_penduduk *= 3;
+            $jmls = $jumlah_penduduk / 3;
+            echo("Hari ke ".$i."ada ".$jumlah_penduduk."=(".$jmls."x 3 -> Dr Strange muncul ");
+        }
+    }
+
+?>
+programming languange:  php
+languange code:  68
+{"token":"b8e78807-19d9-48ed-9b14-465cd0ddc205"}
+resp-string:  {"source_code":"PD9waHAKCiAgICAkanVtbGFoX3BlbmR1ZHVrID0gMTsKICAgIGVjaG8oIkhh\ncmkga2UtMTogYWRhICIuJGp1bWxhaF9wZW5kdWR1ay4iIHBlbmR1ZHVrICIp\nOwogICAgZm9yICgkaT0y
+OyAkaSA8PSA1MCA7ICRpKyspIHsgCiAgICAgICAg\naWYgKCRpICUgMyA9PSAwKSB7CiAgICAgICAgICAgICRqdW1sYWhfcGVuZHVk\ndWsgPSBmbG9vcigkanVtbGFoX3BlbmR1ZHVrLzIpOwogICAgICAgICAgICAk\nam1scSA9
+ICRqdW1sYWhfcGVuZHVkdWsgKjIgKzE7CiAgICAgICAgICAgIGVj\naG8oIkhhcmkga2UgIi4kaS4iYWRhICIuJGp1bWxhaF9wZW5kdWR1ay4iPSgi\nLiRqbWxxLiIvIDIpIC0+IFRoYW5vcyBtdW5jdWwgIik7CiAgICAgICAgfW
+Vs\nc2UgewogICAgICAgICAgICAkanVtbGFoX3BlbmR1ZHVrICo9IDM7CiAgICAg\nICAgICAgICRqbWxzID0gJGp1bWxhaF9wZW5kdWR1ayAvIDM7CiAgICAgICAg\nICAgIGVjaG8oIkhhcmkga2UgIi4kaS4iYWRhICIuJGp1bW
+xhaF9wZW5kdWR1\nay4iPSgiLiRqbWxzLiJ4IDMgLT4gRHIgU3RyYW5nZSBtdW5jdWwgIik7CiAg\nICAgICAgfQogICAgfQoKPz4=\n","language_id":68,"stdin":null,"expected_output":"NTAxOTY1MTAwMzY=\n"
+,"stdout":"SGFyaSBrZS0xOiBhZGEgMSBwZW5kdWR1ayBIYXJpIGtlIDJhZGEgMz0oMXgg\nMyAtPiBEciBTdHJhbmdlIG11bmN1bCBIYXJpIGtlIDNhZGEgMT0oMy8gMikg\nLT4gVGhhbm9zIG11bmN1bCBIYXJpIGtlIDRhZGE
+gMz0oMXggMyAtPiBEciBT\ndHJhbmdlIG11bmN1bCBIYXJpIGtlIDVhZGEgOT0oM3ggMyAtPiBEciBTdHJh\nbmdlIG11bmN1bCBIYXJpIGtlIDZhZGEgND0oOS8gMikgLT4gVGhhbm9zIG11\nbmN1bCBIYXJpIGtlIDdhZGEgMTI
+9KDR4IDMgLT4gRHIgU3RyYW5nZSBtdW5j\ndWwgSGFyaSBrZSA4YWRhIDM2PSgxMnggMyAtPiBEciBTdHJhbmdlIG11bmN1\nbCBIYXJpIGtlIDlhZGEgMTg9KDM3LyAyKSAtPiBUaGFub3MgbXVuY3VsIEhh\ncmkga2UgMTBhZGE
+gNTQ9KDE4eCAzIC0+IERyIFN0cmFuZ2UgbXVuY3VsIEhh\ncmkga2UgMTFhZGEgMTYyPSg1NHggMyAtPiBEciBTdHJhbmdlIG11bmN1bCBI\nYXJpIGtlIDEyYWRhIDgxPSgxNjMvIDIpIC0+IFRoYW5vcyBtdW5jdWwgSGFy\naSB
+rZSAxM2FkYSAyNDM9KDgxeCAzIC0+IERyIFN0cmFuZ2UgbXVuY3VsIEhh\ncmkga2UgMTRhZGEgNzI5PSgyNDN4IDMgLT4gRHIgU3RyYW5nZSBtdW5jdWwg\nSGFyaSBrZSAxNWFkYSAzNjQ9KDcyOS8gMikgLT4gVGhhbm9zIG11b
+mN1bCBI\nYXJpIGtlIDE2YWRhIDEwOTI9KDM2NHggMyAtPiBEciBTdHJhbmdlIG11bmN1\nbCBIYXJpIGtlIDE3YWRhIDMyNzY9KDEwOTJ4IDMgLT4gRHIgU3RyYW5nZSBt\ndW5jdWwgSGFyaSBrZSAxOGFkYSAxNjM4PSgzMjc3L
+yAyKSAtPiBUaGFub3Mg\nbXVuY3VsIEhhcmkga2UgMTlhZGEgNDkxND0oMTYzOHggMyAtPiBEciBTdHJh\nbmdlIG11bmN1bCBIYXJpIGtlIDIwYWRhIDE0NzQyPSg0OTE0eCAzIC0+IERy\nIFN0cmFuZ2UgbXVuY3VsIEhhcmkga
+2UgMjFhZGEgNzM3MT0oMTQ3NDMvIDIp\nIC0+IFRoYW5vcyBtdW5jdWwgSGFyaSBrZSAyMmFkYSAyMjExMz0oNzM3MXgg\nMyAtPiBEciBTdHJhbmdlIG11bmN1bCBIYXJpIGtlIDIzYWRhIDY2MzM5PSgy\nMjExM3ggMyAtPiBEc
+iBTdHJhbmdlIG11bmN1bCBIYXJpIGtlIDI0YWRhIDMz\nMTY5PSg2NjMzOS8gMikgLT4gVGhhbm9zIG11bmN1bCBIYXJpIGtlIDI1YWRh\nIDk5NTA3PSgzMzE2OXggMyAtPiBEciBTdHJhbmdlIG11bmN1bCBIYXJpIGtl\nIDI2Y
+WRhIDI5ODUyMT0oOTk1MDd4IDMgLT4gRHIgU3RyYW5nZSBtdW5jdWwg\nSGFyaSBrZSAyN2FkYSAxNDkyNjA9KDI5ODUyMS8gMikgLT4gVGhhbm9zIG11\nbmN1bCBIYXJpIGtlIDI4YWRhIDQ0Nzc4MD0oMTQ5MjYweCAzIC0+IER
+yIFN0\ncmFuZ2UgbXVuY3VsIEhhcmkga2UgMjlhZGEgMTM0MzM0MD0oNDQ3NzgweCAz\nIC0+IERyIFN0cmFuZ2UgbXVuY3VsIEhhcmkga2UgMzBhZGEgNjcxNjcwPSgx\nMzQzMzQxLyAyKSAtPiBUaGFub3MgbXVuY3VsIEhhcmk
+ga2UgMzFhZGEgMjAx\nNTAxMD0oNjcxNjcweCAzIC0+IERyIFN0cmFuZ2UgbXVuY3VsIEhhcmkga2Ug\nMzJhZGEgNjA0NTAzMD0oMjAxNTAxMHggMyAtPiBEciBTdHJhbmdlIG11bmN1\nbCBIYXJpIGtlIDMzYWRhIDMwMjI1MTU
+9KDYwNDUwMzEvIDIpIC0+IFRoYW5v\ncyBtdW5jdWwgSGFyaSBrZSAzNGFkYSA5MDY3NTQ1PSgzMDIyNTE1eCAzIC0+\nIERyIFN0cmFuZ2UgbXVuY3VsIEhhcmkga2UgMzVhZGEgMjcyMDI2MzU9KDkw\nNjc1NDV4IDMgLT4gRHI
+gU3RyYW5nZSBtdW5jdWwgSGFyaSBrZSAzNmFkYSAx\nMzYwMTMxNz0oMjcyMDI2MzUvIDIpIC0+IFRoYW5vcyBtdW5jdWwgSGFyaSBr\nZSAzN2FkYSA0MDgwMzk1MT0oMTM2MDEzMTd4IDMgLT4gRHIgU3RyYW5nZSBt\ndW5jdWw
+gSGFyaSBrZSAzOGFkYSAxMjI0MTE4NTM9KDQwODAzOTUxeCAzIC0+\nIERyIFN0cmFuZ2UgbXVuY3VsIEhhcmkga2UgMzlhZGEgNjEyMDU5MjY9KDEy\nMjQxMTg1My8gMikgLT4gVGhhbm9zIG11bmN1bCBIYXJpIGtlIDQwYWRhI
+DE4\nMzYxNzc3OD0oNjEyMDU5MjZ4IDMgLT4gRHIgU3RyYW5nZSBtdW5jdWwgSGFy\naSBrZSA0MWFkYSA1NTA4NTMzMzQ9KDE4MzYxNzc3OHggMyAtPiBEciBTdHJh\nbmdlIG11bmN1bCBIYXJpIGtlIDQyYWRhIDI3NTQyNjY2N
+z0oNTUwODUzMzM1\nLyAyKSAtPiBUaGFub3MgbXVuY3VsIEhhcmkga2UgNDNhZGEgODI2MjgwMDAx\nPSgyNzU0MjY2Njd4IDMgLT4gRHIgU3RyYW5nZSBtdW5jdWwgSGFyaSBrZSA0\nNGFkYSAyNDc4ODQwMDAzPSg4MjYyODAwM
+DF4IDMgLT4gRHIgU3RyYW5nZSBt\ndW5jdWwgSGFyaSBrZSA0NWFkYSAxMjM5NDIwMDAxPSgyNDc4ODQwMDAzLyAy\nKSAtPiBUaGFub3MgbXVuY3VsIEhhcmkga2UgNDZhZGEgMzcxODI2MDAwMz0o\nMTIzOTQyMDAwMXggMyAtP
+iBEciBTdHJhbmdlIG11bmN1bCBIYXJpIGtlIDQ3\nYWRhIDExMTU0NzgwMDA5PSgzNzE4MjYwMDAzeCAzIC0+IERyIFN0cmFuZ2Ug\nbXVuY3VsIEhhcmkga2UgNDhhZGEgNTU3NzM5MDAwND0oMTExNTQ3ODAwMDkv\nIDIpIC0+I
+FRoYW5vcyBtdW5jdWwgSGFyaSBrZSA0OWFkYSAxNjczMjE3MDAx\nMj0oNTU3NzM5MDAwNHggMyAtPiBEciBTdHJhbmdlIG11bmN1bCBIYXJpIGtl\nIDUwYWRhIDUwMTk2NTEwMDM2PSgxNjczMjE3MDAxMnggMyAtPiBEciBTdHJ
+h\nbmdlIG11bmN1bCA=\n","status_id":4,"created_at":"2023-01-12T16:52:38.138Z","finished_at":"2023-01-12T16:52:39.092Z","time":"0.024","memory":10556,"stderr":null,"token":"b8e
+78807-19d9-48ed-9b14-465cd0ddc205","number_of_runs":1,"cpu_time_limit":"5.0","cpu_extra_time":"1.0","wall_time_limit":"10.0","memory_limit":128000,"stack_limit":64000,"max_pr
+ocesses_and_or_threads":60,"enable_per_process_and_thread_time_limit":false,"enable_per_process_and_thread_memory_limit":false,"max_file_size":1024,"compile_output":null,"exi
+t_code":0,"exit_signal":null,"message":null,"wall_time":"0.108","compiler_options":null,"command_line_arguments":null,"redirect_stderr_to_stdout":false,"callback_url":null,"a
+dditional_files":null,"enable_network":false,"status":{"id":4,"description":"Wrong Answer"},"language":{"id":68,"name":"PHP (7.4.1)"}}
+Source Code:  <?php
+
+    $jumlah_penduduk = 1;
+    echo("Hari ke-1: ada ".$jumlah_penduduk." penduduk ");
+    for ($i=2; $i <= 50 ; $i++) {
+        if ($i % 3 == 0) {
+            $jumlah_penduduk = floor($jumlah_penduduk/2);
+            $jmlq = $jumlah_penduduk *2 +1;
+            echo("Hari ke ".$i."ada ".$jumlah_penduduk."=(".$jmlq."/ 2) -> Thanos muncul ");
+        }else {
+            $jumlah_penduduk *= 3;
+            $jmls = $jumlah_penduduk / 3;
+            echo("Hari ke ".$i."ada ".$jumlah_penduduk."=(".$jmls."x 3 -> Dr Strange muncul ");
+        }
+    }
+
+?>
+Output:  Hari ke-1: ada 1 penduduk Hari ke 2ada 3=(1x 3 -> Dr Strange muncul Hari ke 3ada 1=(3/ 2) -> Thanos muncul Hari ke 4ada 3=(1x 3 -> Dr Strange muncul Hari ke 5ada 9=(
+3x 3 -> Dr Strange muncul Hari ke 6ada 4=(9/ 2) -> Thanos muncul Hari ke 7ada 12=(4x 3 -> Dr Strange muncul Hari ke 8ada 36=(12x 3 -> Dr Strange muncul Hari ke 9ada 18=(37/ 2
+) -> Thanos muncul Hari ke 10ada 54=(18x 3 -> Dr Strange muncul Hari ke 11ada 162=(54x 3 -> Dr Strange muncul Hari ke 12ada 81=(163/ 2) -> Thanos muncul Hari ke 13ada 243=(81
+x 3 -> Dr Strange muncul Hari ke 14ada 729=(243x 3 -> Dr Strange muncul Hari ke 15ada 364=(729/ 2) -> Thanos muncul Hari ke 16ada 1092=(364x 3 -> Dr Strange muncul Hari ke 17
+ada 3276=(1092x 3 -> Dr Strange muncul Hari ke 18ada 1638=(3277/ 2) -> Thanos muncul Hari ke 19ada 4914=(1638x 3 -> Dr Strange muncul Hari ke 20ada 14742=(4914x 3 -> Dr Stran
+ge muncul Hari ke 21ada 7371=(14743/ 2) -> Thanos muncul Hari ke 22ada 22113=(7371x 3 -> Dr Strange muncul Hari ke 23ada 66339=(22113x 3 -> Dr Strange muncul Hari ke 24ada 33
+169=(66339/ 2) -> Thanos muncul Hari ke 25ada 99507=(33169x 3 -> Dr Strange muncul Hari ke 26ada 298521=(99507x 3 -> Dr Strange muncul Hari ke 27ada 149260=(298521/ 2) -> Tha
+nos muncul Hari ke 28ada 447780=(149260x 3 -> Dr Strange muncul Hari ke 29ada 1343340=(447780x 3 -> Dr Strange muncul Hari ke 30ada 671670=(1343341/ 2) -> Thanos muncul Hari
+ke 31ada 2015010=(671670x 3 -> Dr Strange muncul Hari ke 32ada 6045030=(2015010x 3 -> Dr Strange muncul Hari ke 33ada 3022515=(6045031/ 2) -> Thanos muncul Hari ke 34ada 9067
+545=(3022515x 3 -> Dr Strange muncul Hari ke 35ada 27202635=(9067545x 3 -> Dr Strange muncul Hari ke 36ada 13601317=(27202635/ 2) -> Thanos muncul Hari ke 37ada 40803951=(136
+01317x 3 -> Dr Strange muncul Hari ke 38ada 122411853=(40803951x 3 -> Dr Strange muncul Hari ke 39ada 61205926=(122411853/ 2) -> Thanos muncul Hari ke 40ada 183617778=(612059
+26x 3 -> Dr Strange muncul Hari ke 41ada 550853334=(183617778x 3 -> Dr Strange muncul Hari ke 42ada 275426667=(550853335/ 2) -> Thanos muncul Hari ke 43ada 826280001=(2754266
+67x 3 -> Dr Strange muncul Hari ke 44ada 2478840003=(826280001x 3 -> Dr Strange muncul Hari ke 45ada 1239420001=(2478840003/ 2) -> Thanos muncul Hari ke 46ada 3718260003=(123
+9420001x 3 -> Dr Strange muncul Hari ke 47ada 11154780009=(3718260003x 3 -> Dr Strange muncul Hari ke 48ada 5577390004=(11154780009/ 2) -> Thanos muncul Hari ke 49ada 1673217
+0012=(5577390004x 3 -> Dr Strange muncul Hari ke 50ada 50196510036=(16732170012x 3 -> Dr Strange muncul
+Expected Code:  50196510036
+-------------------------------------------------
+name:  Adisaputra Zidha Noorizki
+code:  x = 1
+for i in range(2, 51):
+    if(i%3==0):
+        x=x/2
+    else:
+        x=x*3
+    x=int(x)
+    print('Deret ke-',i,':',x)
+programming languange:  c++
+languange code:  54
+{"token":"ad2e6ca9-213e-4856-ab53-f092f1ed8198"}
+resp-string:  {"source_code":"eCA9IDEKZm9yIGkgaW4gcmFuZ2UoMiwgNTEpOgogICAgaWYoaSUzPT0wKToK\nICAgICAgICB4PXgvMgogICAgZWxzZToKICAgICAgICB4PXgqMwogICAgeD1p\nbnQoeCkKICAgIHByaW50
+KCdEZXJldCBrZS0nLGksJzonLHgp\n","language_id":54,"stdin":null,"expected_output":"NTAxOTY1MTAwMzY=\n","stdout":null,"status_id":6,"created_at":"2023-01-12T16:52:40.411Z","fini
+shed_at":"2023-01-12T16:52:46.451Z","time":null,"memory":null,"stderr":null,"token":"ad2e6ca9-213e-4856-ab53-f092f1ed8198","number_of_runs":1,"cpu_time_limit":"5.0","cpu_extr
+a_time":"1.0","wall_time_limit":"10.0","memory_limit":128000,"stack_limit":64000,"max_processes_and_or_threads":60,"enable_per_process_and_thread_time_limit":false,"enable_pe
+r_process_and_thread_memory_limit":false,"max_file_size":1024,"compile_output":"bWFpbi5jcHA6ODoxMTogd2FybmluZzogY2hhcmFjdGVyIGNvbnN0YW50IHRv\nbyBsb25nIGZvciBpdHMgdHlwZQogICAg
+OCB8ICAgICBwcmludCgnRGVyZXQg\na2UtJyxpLCc6Jyx4KQogICAgICB8ICAgICAgICAgICBefn5+fn5+fn5+fgpt\nYWluLmNwcDoxOjE6IGVycm9yOiDigJh44oCZIGRvZXMgbm90IG5hbWUgYSB0\neXBlCiAgICAxIHwgeCA9
+IDEKICAgICAgfCBeCg==\n","exit_code":null,"exit_signal":null,"message":null,"wall_time":null,"compiler_options":null,"command_line_arguments":null,"redirect_stderr_to_stdout":
+false,"callback_url":null,"additional_files":null,"enable_network":false,"status":{"id":6,"description":"Compilation Error"},"language":{"id":54,"name":"C++ (GCC 9.2.0)"}}
+Source Code:  x = 1
+for i in range(2, 51):
+    if(i%3==0):
+        x=x/2
+    else:
+        x=x*3
+    x=int(x)
+    print('Deret ke-',i,':',x)
+Output:
+Expected Code:  50196510036
+-------------------------------------------------
+name:  Erick Ezrandy
+code:
+programming languange:
+languange code:  84
+{"source_code":["can't be blank"]}
+resp-string:  {"message":"Endpoint '\/submissions\/' does not exist"}
+Source Code:
+Output:
+Expected Code:
+-------------------------------------------------
+name:  Daarin Fairuz Zahira
+code:
+programming languange:
+languange code:  84
+{"source_code":["can't be blank"]}
+resp-string:  {"message":"Endpoint '\/submissions\/' does not exist"}
+Source Code:
+Output:
+Expected Code:
+-------------------------------------------------
+name:  Muhammad Elham Al Haq
+code:  def population_growth(days):
+    people = 1
+    if days > 1:
+      for i in range(days):
+          if (i+1) % 3 == 0:
+              people = people / 2
+          else:
+              people = people * 3
+    return people
+programming languange:  python
+languange code:  71
+{"token":"cf42e9fd-41c8-4d24-a7ce-7ce381747185"}
+resp-string:  {"source_code":"ZGVmIHBvcHVsYXRpb25fZ3Jvd3RoKGRheXMpOgogICAgcGVvcGxlID0gMQog\nICAgaWYgZGF5cyA+IDE6CiAgICAgIGZvciBpIGluIHJhbmdlKGRheXMpOgog\nICAgICAgICAgaWYgKGkr
+MSkgJSAzID09IDA6CiAgICAgICAgICAgICAgcGVv\ncGxlID0gcGVvcGxlIC8gMgogICAgICAgICAgZWxzZToKICAgICAgICAgICAg\nICBwZW9wbGUgPSBwZW9wbGUgKiAzCiAgICByZXR1cm4gcGVvcGxl\n","language_id":
+71,"stdin":null,"expected_output":"NTAxOTY1MTAwMzY=\n","stdout":null,"status_id":4,"created_at":"2023-01-12T16:52:49.196Z","finished_at":"2023-01-12T16:52:50.260Z","time":"0.
+041","memory":8460,"stderr":null,"token":"cf42e9fd-41c8-4d24-a7ce-7ce381747185","number_of_runs":1,"cpu_time_limit":"5.0","cpu_extra_time":"1.0","wall_time_limit":"10.0","mem
+ory_limit":128000,"stack_limit":64000,"max_processes_and_or_threads":60,"enable_per_process_and_thread_time_limit":false,"enable_per_process_and_thread_memory_limit":false,"m
+ax_file_size":1024,"compile_output":null,"exit_code":0,"exit_signal":null,"message":null,"wall_time":"0.117","compiler_options":null,"command_line_arguments":null,"redirect_s
+tderr_to_stdout":false,"callback_url":null,"additional_files":null,"enable_network":false,"status":{"id":4,"description":"Wrong Answer"},"language":{"id":71,"name":"Python (3
+.8.1)"}}
+Source Code:  def population_growth(days):
+    people = 1
+    if days > 1:
+      for i in range(days):
+          if (i+1) % 3 == 0:
+              people = people / 2
+          else:
+              people = people * 3
+    return people
+Output:
+Expected Code:  50196510036
+-------------------------------------------------
+name:  Taufik Hidayat
+code:
+programming languange:
+languange code:  84
+{"source_code":["can't be blank"]}
+resp-string:  {"message":"Endpoint '\/submissions\/' does not exist"}
+Source Code:
+Output:
+Expected Code:
+-------------------------------------------------
+name:  Eksi Listari
+code:
+programming languange:
+languange code:  84
+{"source_code":["can't be blank"]}
+resp-string:  {"message":"Endpoint '\/submissions\/' does not exist"}
+Source Code:
+Output:
+Expected Code:
+-------------------------------------------------
+name:  Ratna Iramaya Aziza
+code:
+programming languange:
+languange code:  84
+{"source_code":["can't be blank"]}
+resp-string:  {"message":"Endpoint '\/submissions\/' does not exist"}
+Source Code:
+Output:
+Expected Code:
+-------------------------------------------------
+name:  Wisnu Wiliyandi
+code:
+programming languange:
+languange code:  84
+{"source_code":["can't be blank"]}
+resp-string:  {"message":"Endpoint '\/submissions\/' does not exist"}
+Source Code:
+Output:
+Expected Code:
+-------------------------------------------------
+name:  Dimas Dahan Tirta Kusuma
+code:
+programming languange:
+languange code:  84
+{"source_code":["can't be blank"]}
+resp-string:  {"message":"Endpoint '\/submissions\/' does not exist"}
+Source Code:
+Output:
+Expected Code:
+-------------------------------------------------
+name:  DEDI SUPRIADI
+code:
+programming languange:
+languange code:  84
+{"message":"You have exceeded the DAILY quota for Submissions on your current plan, BASIC. Upgrade your plan at https:\/\/rapidapi.com\/judge0-official\/api\/judge0-ce"}
+resp-string:  {"message":"Endpoint '\/submissions\/' does not exist"}
+Source Code:
+Output:
+Expected Code:
+-------------------------------------------------
+name:  Reza Pratama
+code:
+programming languange:
+languange code:  84
+{"message":"You have exceeded the DAILY quota for Submissions on your current plan, BASIC. Upgrade your plan at https:\/\/rapidapi.com\/judge0-official\/api\/judge0-ce"}
+resp-string:  {"message":"Endpoint '\/submissions\/' does not exist"}
+Source Code:
+Output:
+Expected Code:
+-------------------------------------------------
+name:  Akhfa Ibnu Arsy
+code:
+programming languange:
+languange code:  84
+{"message":"You have exceeded the DAILY quota for Submissions on your current plan, BASIC. Upgrade your plan at https:\/\/rapidapi.com\/judge0-official\/api\/judge0-ce"}
+resp-string:  {"message":"Endpoint '\/submissions\/' does not exist"}
+Source Code:
+Output:
+Expected Code:
+-------------------------------------------------
+name:  Ardiansyah Putra Hidayatullah
+code:
+programming languange:
+languange code:  84
+{"message":"You have exceeded the DAILY quota for Submissions on your current plan, BASIC. Upgrade your plan at https:\/\/rapidapi.com\/judge0-official\/api\/judge0-ce"}
+resp-string:  {"message":"Endpoint '\/submissions\/' does not exist"}
+Source Code:
+Output:
+Expected Code:
+-------------------------------------------------
+name:  Hartanta Dwi Putra Sembiring
+code:  #include <iostream>
+using namespace std;
+
+int main()
+{
+   int hariawal = 1, jumlah = 1, hariakhir = 50;
+
+while (true) {
+    hariawal++;
+    jumlah = (hariawal % 3 != 0) ? jumlah * 3 : jumlah / 2;
+    cout << hariawal << " " << jumlah << endl;
+    if (hariawal == hariakhir) {
+        break;
+    }
+}
+}
+programming languange:  c
+languange code:  84
+{"message":"You have exceeded the DAILY quota for Submissions on your current plan, BASIC. Upgrade your plan at https:\/\/rapidapi.com\/judge0-official\/api\/judge0-ce"}
+resp-string:  {"message":"Endpoint '\/submissions\/' does not exist"}
+Source Code:
+Output:
+Expected Code:
+-------------------------------------------------
+name:  Afdal Wahyi
+code:
+programming languange:
+languange code:  84
+{"message":"You have exceeded the DAILY quota for Submissions on your current plan, BASIC. Upgrade your plan at https:\/\/rapidapi.com\/judge0-official\/api\/judge0-ce"}
+resp-string:  {"message":"Endpoint '\/submissions\/' does not exist"}
+Source Code:
+Output:
+Expected Code:
+-------------------------------------------------
+name:  Herdi Heryadi
+code:
+programming languange:
+languange code:  84
+{"message":"You have exceeded the DAILY quota for Submissions on your current plan, BASIC. Upgrade your plan at https:\/\/rapidapi.com\/judge0-official\/api\/judge0-ce"}
+resp-string:  {"message":"Endpoint '\/submissions\/' does not exist"}
+Source Code:
+Output:
+Expected Code:
+-------------------------------------------------
+name:  Ernawati
+code:
+programming languange:
+languange code:  84
+{"message":"You have exceeded the DAILY quota for Submissions on your current plan, BASIC. Upgrade your plan at https:\/\/rapidapi.com\/judge0-official\/api\/judge0-ce"}
+resp-string:  {"message":"Endpoint '\/submissions\/' does not exist"}
+Source Code:
+Output:
+Expected Code:
+-------------------------------------------------
+name:  Fadlan Prabaswara
+code:  <?php
+$population = 1;
+for ($day = 1; $day <= 50; $day++) {
+    if ($day % 3 == 0) {
+        $population = floor($population / 2);
+    } else {
+        $population *= 3;
+    }
+}
+echo "Jumlah penduduk Planet Thanos di hari ke-50 adalah: " . $population;
+?>
+programming languange:  php
+languange code:  68
+{"message":"You have exceeded the DAILY quota for Submissions on your current plan, BASIC. Upgrade your plan at https:\/\/rapidapi.com\/judge0-official\/api\/judge0-ce"}
+resp-string:  {"message":"Endpoint '\/submissions\/' does not exist"}
+Source Code:
+Output:
+Expected Code:
+-------------------------------------------------
+name:  Muhammad Anshar Al Farizy Ghuffran
+code:  hari_ke = 1
+qty_sekarang = 1
+hari_ke_request = 50
+
+while True:
+    qty_kemarin = qty_sekarang
+
+    hari_ke += 1
+
+    qty_sekarang = \
+        qty_kemarin * 3 if hari_ke % 3 != 0 \
+        else qty_kemarin // 2
+
+    print(hari_ke, qty_sekarang)
+
+    if hari_ke == hari_ke_request :
+        break
+programming languange:  python
+languange code:  71
+{"message":"You have exceeded the DAILY quota for Submissions on your current plan, BASIC. Upgrade your plan at https:\/\/rapidapi.com\/judge0-official\/api\/judge0-ce"}
+resp-string:  {"message":"Endpoint '\/submissions\/' does not exist"}
+Source Code:
+Output:
+Expected Code:
+-------------------------------------------------
+name:  Tantan Nugraha
+code:  #include <stdio.h>
+
+int main() {
+    // Write C code here
+    printf("Hello world");
+    int dr;
+    int drr;
+    int th;
+    for(int i = 1; i<51; i++){
+        if(i%3 != 0){
+        dr = 1;
+        drr = dr*3;
+        printf ("\nHari ke - %d = %d", i, dr);
+        }else if (i%3 == 0 ){
+            th = drr/2;
+            printf ("\nHari ke - %d = %d", i, th);
+        }
+        }
+
+
+    return 0;
+}
+programming languange:  c
+languange code:  84
+{"message":"You have exceeded the DAILY quota for Submissions on your current plan, BASIC. Upgrade your plan at https:\/\/rapidapi.com\/judge0-official\/api\/judge0-ce"}
+resp-string:  {"message":"Endpoint '\/submissions\/' does not exist"}
+Source Code:
+Output:
+Expected Code:
+-------------------------------------------------
+name:  Putri Ramadhani
+code:
+programming languange:
+languange code:  84
+{"message":"You have exceeded the DAILY quota for Submissions on your current plan, BASIC. Upgrade your plan at https:\/\/rapidapi.com\/judge0-official\/api\/judge0-ce"}
+resp-string:  {"message":"Endpoint '\/submissions\/' does not exist"}
+Source Code:
+Output:
+Expected Code:
+-------------------------------------------------
+name:  Muhammad Alfayed Dennita
+code:  // Bahasa JavaScript
+
+const thanosPlanet = (days) => {
+  if (days > 0) {
+    let citizens = 1;
+
+    for (let day = 2; day <= days; day++) {
+      if (day % 3 === 0) {
+        citizens = Math.floor(citizens / 2); // Thanos muncul
+      } else {
+        citizens *= 3; // Dr. Strange muncul
+      }
+    }
+
+    console.log(
+      `Jumlah penduduk Planet Thanos di hari ke-${days}: ${citizens} penduduk`
+    );
+  } else {
+    console.log('n-hari (days) harus lebih besar dari 0');
+  }
+};
+
+thanosPlanet(50);
+programming languange:  javascript
+languange code:  63
+{"message":"You have exceeded the DAILY quota for Submissions on your current plan, BASIC. Upgrade your plan at https:\/\/rapidapi.com\/judge0-official\/api\/judge0-ce"}
+resp-string:  {"message":"Endpoint '\/submissions\/' does not exist"}
+Source Code:
+Output:
+Expected Code:
+-------------------------------------------------
+name:  Jofris Abram Rivieri Hutabarat
+code:
+programming languange:
+languange code:  84
+{"message":"You have exceeded the DAILY quota for Submissions on your current plan, BASIC. Upgrade your plan at https:\/\/rapidapi.com\/judge0-official\/api\/judge0-ce"}
+resp-string:  {"message":"Endpoint '\/submissions\/' does not exist"}
+Source Code:
+Output:
+Expected Code:
+-------------------------------------------------
+name:  Muhammad Iqbal Gobel
+code:
+programming languange:
+languange code:  84
+{"message":"You have exceeded the DAILY quota for Submissions on your current plan, BASIC. Upgrade your plan at https:\/\/rapidapi.com\/judge0-official\/api\/judge0-ce"}
+resp-string:  {"message":"Endpoint '\/submissions\/' does not exist"}
+Source Code:
+Output:
+Expected Code:
+-------------------------------------------------
+name:  yogi manurung
+code:
+programming languange:
+languange code:  84
+{"message":"You have exceeded the DAILY quota for Submissions on your current plan, BASIC. Upgrade your plan at https:\/\/rapidapi.com\/judge0-official\/api\/judge0-ce"}
+resp-string:  {"message":"Endpoint '\/submissions\/' does not exist"}
+Source Code:
+Output:
+Expected Code:
+-------------------------------------------------
+name:  Angger Muhammad Rizqi
+code:
+programming languange:
+languange code:  84
+{"message":"You have exceeded the DAILY quota for Submissions on your current plan, BASIC. Upgrade your plan at https:\/\/rapidapi.com\/judge0-official\/api\/judge0-ce"}
+resp-string:  {"message":"Endpoint '\/submissions\/' does not exist"}
+Source Code:
+Output:
+Expected Code:
+-------------------------------------------------
+name:  faris bagaswara
+code:
+programming languange:
+languange code:  84
+{"message":"You have exceeded the DAILY quota for Submissions on your current plan, BASIC. Upgrade your plan at https:\/\/rapidapi.com\/judge0-official\/api\/judge0-ce"}
+resp-string:  {"message":"Endpoint '\/submissions\/' does not exist"}
+Source Code:
+Output:
+Expected Code:
+-------------------------------------------------
+name:  Fadli Rizaldy
+code:
+programming languange:
+languange code:  84
+{"message":"You have exceeded the DAILY quota for Submissions on your current plan, BASIC. Upgrade your plan at https:\/\/rapidapi.com\/judge0-official\/api\/judge0-ce"}
+resp-string:  {"message":"Endpoint '\/submissions\/' does not exist"}
+Source Code:
+Output:
+Expected Code:
+-------------------------------------------------
+name:  Prana Gusriana
+code:  # Python
+def jumlah_penduduk_Planet_Thanos(hari):
+        nPenduduk = 1 # Hari ke-1
+        # Looping dari hari 1 ke hari n
+        for i in range(1, hari+1):
+                # Kalau kelipatan 3 menghilangkan 1/2 penduduk (pembulatan ke bawah)
+                # Kalau hari ke-1 penduduknya ada 1
+                # Selain itu dikali 3
+                if i % 3 == 0:
+                        nPenduduk = nPenduduk // 2
+                elif i == 1:
+                        nPenduduk = 1
+                else:
+                        nPenduduk *= 3
+        return nPenduduk
+
+print(jumlah_penduduk_Planet_Thanos(50))
+programming languange:  python
+languange code:  71
+{"message":"You have exceeded the DAILY quota for Submissions on your current plan, BASIC. Upgrade your plan at https:\/\/rapidapi.com\/judge0-official\/api\/judge0-ce"}
+resp-string:  {"message":"Endpoint '\/submissions\/' does not exist"}
+Source Code:
+Output:
+Expected Code:
+-------------------------------------------------
+name:  Abdurrazak Syakir Muharam
+code:
+programming languange:
+languange code:  84
+{"message":"You have exceeded the DAILY quota for Submissions on your current plan, BASIC. Upgrade your plan at https:\/\/rapidapi.com\/judge0-official\/api\/judge0-ce"}
+resp-string:  {"message":"Endpoint '\/submissions\/' does not exist"}
+Source Code:
+Output:
+Expected Code:
+-------------------------------------------------
+name:  Maulana Wirayudha
+code:  public class penduduk {
+    public static void main(String[] args) {
+        int penduduk = 1;
+        for (int hari = 1; hari <= 50; hari++) {
+            penduduk *= 3;
+            if (hari % 3 == 0) {
+                penduduk /= 2;
+            }
+        }
+        System.out.println("Penduduk hari ke-50: " + penduduk);
+    }
+}
+programming languange:  java
+languange code:  63
+{"message":"You have exceeded the DAILY quota for Submissions on your current plan, BASIC. Upgrade your plan at https:\/\/rapidapi.com\/judge0-official\/api\/judge0-ce"}
+resp-string:  {"message":"Endpoint '\/submissions\/' does not exist"}
+Source Code:
+Output:
+Expected Code:
+-------------------------------------------------
+name:  Rangga Surya Prayoga
+code:  <?php
+
+$penduduk = 1;
+$hari = 1;
+for ($i = 1; $i <= 50; $i++) {
+    if ($i % 3 != 0) {
+        (int) $penduduk = $penduduk * 3;
+    } else {
+        (int) $penduduk = $penduduk / 2;
+    }
+  echo "Hari ke " . $i . " " . $penduduk . PHP_EOL;
+}
+```
+
+programming languange:  php
+languange code:  68
+{"message":"You have exceeded the DAILY quota for Submissions on your current plan, BASIC. Upgrade your plan at https:\/\/rapidapi.com\/judge0-official\/api\/judge0-ce"}
+resp-string:  {"message":"Endpoint '\/submissions\/' does not exist"}
+Source Code:
+Output:
+Expected Code:
+-------------------------------------------------
+name:  FAJAR BUANA HIDAYAT
+code:  function planetThanos(resident,totalDay){
+    for(let day = 2; day <= totalDay; day++) {
+        if(day % 3 === 0) {
+            resident = Math.floor(resident / 2)
+        } else {
+            resident = resident*3;
+        }
+    }
+    console.log(resident)
+}
+planetThanos(1,50)
+programming languange:  javascript
+languange code:  63
+{"message":"You have exceeded the DAILY quota for Submissions on your current plan, BASIC. Upgrade your plan at https:\/\/rapidapi.com\/judge0-official\/api\/judge0-ce"}
+resp-string:  {"message":"Endpoint '\/submissions\/' does not exist"}
+Source Code:
+Output:
+Expected Code:
+-------------------------------------------------
+name:  Audi Bramastya Oroh
+code:
+programming languange:
+languange code:  84
+{"message":"You have exceeded the DAILY quota for Submissions on your current plan, BASIC. Upgrade your plan at https:\/\/rapidapi.com\/judge0-official\/api\/judge0-ce"}
+resp-string:  {"message":"Endpoint '\/submissions\/' does not exist"}
+Source Code:
+Output:
+Expected Code:
+-------------------------------------------------
+name:  Achmad Alvin Ardiansyah
+code:  let res = 1;
+      function jumlah(x) {
+        for (let day = 2; day <= x; day++) {
+          if (day % 3 === 0) {
+            res = Math.floor(res / 2);
+          } else {
+            res = res * 3;
+          }
+        }
+        return res;
+      }
+
+      hasil = jumlah(50);
+      console.log(hasil);
+programming languange:  javascript
+languange code:  63
+{"message":"You have exceeded the DAILY quota for Submissions on your current plan, BASIC. Upgrade your plan at https:\/\/rapidapi.com\/judge0-official\/api\/judge0-ce"}
+resp-string:  {"message":"Endpoint '\/submissions\/' does not exist"}
+Source Code:
+Output:
+Expected Code:
+-------------------------------------------------
+name:  Arlan Leon Allacsta
+code:  public class Ruangguru {
+    public static void main(String[] args) {
+
+
+        long civil = 1;
+
+        for(int day = 1; day<=50; day++){
+            if(day % 3 == 0){
+                civil = civil / 2;
+            }else if(day == 1){
+                civil = 1;
+            }
+            else{
+                 civil = civil * 3;
+            }
+
+        }
+
+        System.out.println(civil);
+    }
+
+}
+programming languange:  java
+languange code:  63
+{"message":"You have exceeded the DAILY quota for Submissions on your current plan, BASIC. Upgrade your plan at https:\/\/rapidapi.com\/judge0-official\/api\/judge0-ce"}
+resp-string:  {"message":"Endpoint '\/submissions\/' does not exist"}
+Source Code:
+Output:
+Expected Code:
+-------------------------------------------------
+name:  Ghozy Nouval Satya Prasaja
+code:  public class MyClass {
+    public static void main(String args[]) {
+
+        double hasil = 0;
+
+      for(int i = 0; i <= 50; i++){
+
+
+          double b = i * 3;
+          double c = 0;
+          double f = 0;
+
+
+            if((i + 1) % 3 == 0){
+              c = i;
+              b = c /2;
+            }
+
+          System.out.println(" hari ke " + (i + 1) + " : " + b);
+
+          hasil = hasil + b;
+
+      }
+      System.out.println();
+      System.out.println("Hasil Penduduk : " + hasil);
+
+    }
+}
+programming languange:  java
+languange code:  63
+{"message":"You have exceeded the DAILY quota for Submissions on your current plan, BASIC. Upgrade your plan at https:\/\/rapidapi.com\/judge0-official\/api\/judge0-ce"}
+resp-string:  {"message":"Endpoint '\/submissions\/' does not exist"}
+Source Code:
+Output:
+Expected Code:
+-------------------------------------------------
