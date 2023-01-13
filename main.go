@@ -19,9 +19,6 @@ import (
 	"github.com/auto-judge/model"
 )
 
-// https://ce.judge0.com/languages
-// https://ce.judge0.com/statuses
-
 func init() {
 	godotenv.Load()
 }
@@ -32,12 +29,9 @@ func main() {
 		panic(err.Error())
 	}
 
-	for _, v := range *res {
-		fmt.Println("name: ", v.Name)
-		fmt.Println("code: ", v.Code1)
-		fmt.Println("programming languange: ", v.ProgrammingLanguange1)
+	outputValue := [][]interface{}{{"No", "Name", "Email", "Campus", "Programming Languange", "Code1", "Stdout1", "Expected1", "Status1", "Code2", "Stdout2", "Expected2", "Status2"}}
+	for i, v := range *res {
 		progID, _ := getLangID(v.ProgrammingLanguange1)
-		fmt.Println("languange code: ", *progID)
 
 		resTkn, err := createSubmission(*progID, v.Code1, "50196510036")
 		if err != nil {
@@ -49,18 +43,42 @@ func main() {
 		sourceCode, err := base64.StdEncoding.DecodeString(resSubmission.SourceCode)
 		output, err := base64.StdEncoding.DecodeString(resSubmission.Stdout)
 		expectedOutput, err := base64.StdEncoding.DecodeString(resSubmission.ExpectedOutput)
-
 		if err != nil {
 			panic(err)
 		}
 
-		fmt.Println("Source Code: ", string(sourceCode))
-		fmt.Println("Output: ", string(output))
-		fmt.Println("Expected Code: ", string(expectedOutput))
+		status, err := getStatusName(resSubmission.StatusId)
+		if err != nil {
+			panic(err)
+		}
 
-		fmt.Println("-------------------------------------------------")
+		values := [][]interface{}{{i + 1, v.Name, v.Email, v.Campus, v.ProgrammingLanguange1, string(sourceCode), string(output), string(expectedOutput), status, "", "", "", ""}}
+		outputValue = append(outputValue, values...)
 	}
 
+	resStat, err := WriteGsheet(os.Getenv("SPREAD_SHEET_ID"), "Source Code Report!A:O", outputValue)
+
+	if err != nil {
+		panic(err)
+	}
+
+	fmt.Println("Report Complete: ", resStat)
+}
+
+func getStatusName(StatusID int) (*string, error) {
+	res, err := getStatuses()
+	if err != nil {
+		return nil, err
+	}
+
+	var StatusName string
+	for _, v := range *res {
+		if v.ID == StatusID {
+			StatusName = v.Description
+		}
+	}
+
+	return &StatusName, nil
 }
 
 func getLangID(progLang string) (*int, error) {
@@ -78,6 +96,40 @@ func getLangID(progLang string) (*int, error) {
 	}
 
 	return &progID, nil
+}
+
+func WriteGsheet(spreadsheetID string, rangeData string, values [][]interface{}) (bool, error) {
+	data, err := ioutil.ReadFile("config/sheet.json")
+	if err != nil {
+		return false, err
+	}
+
+	conf, err := google.JWTConfigFromJSON(data, sheets.SpreadsheetsScope)
+	if err != nil {
+		return false, err
+	}
+
+	client := conf.Client(context.TODO())
+	srv, err := sheets.New(client)
+	if err != nil {
+		return false, err
+	}
+
+	rb := &sheets.BatchUpdateValuesRequest{
+		ValueInputOption: "USER_ENTERED",
+	}
+	rb.Data = append(rb.Data, &sheets.ValueRange{
+		Range:  rangeData,
+		Values: values,
+	})
+
+	ctx := context.Background()
+	_, err = srv.Spreadsheets.Values.BatchUpdate(spreadsheetID, rb).Context(ctx).Do()
+	if err != nil {
+		return false, err
+	}
+
+	return true, nil
 }
 
 func getSheetReport() (*[]model.ReportSpreadSheet, error) {
@@ -208,8 +260,6 @@ func getSubmission(token string) (*model.GetSubmissionResponse, error) {
 	if err != nil {
 		return nil, err
 	}
-
-	fmt.Println("resp-string: ", string(body))
 
 	var jsonResponse model.GetSubmissionResponse
 	err = json.Unmarshal(body, &jsonResponse)
